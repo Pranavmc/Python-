@@ -1,0 +1,10 @@
+a=60
+b=39
+sum=a+b
+sub=a-b
+mul=a*b
+div=sum*mul/sub
+print(sum)
+print(sub)
+print(mul)
+print(div)

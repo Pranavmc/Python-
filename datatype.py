@@ -1,0 +1,11 @@
+number=34,-1
+string='pranav',"prnav",'''pranav'''
+decimal=48.44
+bool=True
+a=None
+print(string)
+print(type(number))
+print(type(string))
+print(type(decimal))
+print(type(bool))
+print(type(a))

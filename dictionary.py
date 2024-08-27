@@ -1,0 +1,20 @@
+dict={
+    "name":"pranav",
+    "age":22,
+    "is_adult":"true",
+    "subjects":['c','java','python'],
+    "languages":('kannada','hindi','english'),
+    "subjects1":{
+        "phy":98,
+        "math":87,
+        "chem":99
+
+    }
+}
+print(dict)
+print(dict["subjects1"])
+print(dict["subjects1"]["math"])
+dict["name"]="pranavchougale"
+print(dict)
+dict["movie"]="avengers"
+print(dict)

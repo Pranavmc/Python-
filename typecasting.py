@@ -1,0 +1,9 @@
+a=float("4")
+b=67.87
+print(type(a))
+print(a+b)
+c="pranav"
+d=2.345
+d=str(d)
+print(c+d)
+print(type(d))

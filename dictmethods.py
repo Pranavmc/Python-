@@ -1,0 +1,21 @@
+dict={
+    "name":"pranav",
+    "age":22,
+    "is_adult":"true",
+    "subjects":['c','java','python'],
+    "languages":('kannada','hindi','english'),
+    "subjects1":{
+        "phy":98,
+        "math":87,
+        "chem":99
+
+    }
+}
+new_dict={"father":"mallinath","mother":"rani"}
+print(dict)
+print(dict.keys())
+print(dict.values())
+print(dict.get("key"))
+dict.update(new_dict)
+print(dict)
+print(dict.items())
